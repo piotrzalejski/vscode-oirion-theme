@@ -37,7 +37,7 @@ export const getColorSet = (colors: ColorSetting): IColorSet => {
                     "punctuation.definition.strikethrough.markdown"
                 ],
                 "settings": {
-                    "foreground": "#464B5D"
+                    "foreground": colors.scheme.comment
                 }
             },
             {
@@ -78,7 +78,7 @@ export const getColorSet = (colors: ColorSetting): IColorSet => {
                     "punctuation.terminator"
                 ],
                 "settings": {
-                    "foreground": "#c5cdd3"
+                    "foreground": colors.scheme.text
                 }
             },
             {
@@ -138,7 +138,7 @@ export const getColorSet = (colors: ColorSetting): IColorSet => {
                     "keyword.control.def.ruby"
                 ],
                 "settings": {
-                    "foreground": "#b7410eb6"
+                    "foreground": colors.scheme.keyword
                 }
             },
             {
@@ -203,7 +203,7 @@ export const getColorSet = (colors: ColorSetting): IColorSet => {
                     "markup.fenced_code.block"
                 ],
                 "settings": {
-                    "foreground": "#d3b692"
+                    "foreground": colors.scheme.variable
                 }
             },
             {
@@ -268,7 +268,7 @@ export const getColorSet = (colors: ColorSetting): IColorSet => {
                     "entity.name.type"
                 ],
                 "settings": {
-                    "foreground": "#be856f"
+                    "foreground": colors.scheme.annotation
                 }
             },
             {
@@ -309,7 +309,7 @@ export const getColorSet = (colors: ColorSetting): IColorSet => {
                     "meta.definition.attribute-entry punctuation.separator"
                 ],
                 "settings": {
-                    "foreground": "#a88c00"
+                    "foreground": colors.scheme.constant
                 }
             },
             {
@@ -370,7 +370,7 @@ export const getColorSet = (colors: ColorSetting): IColorSet => {
                     "source.zig keyword.structure"
                 ],
                 "settings": {
-                    "foreground": "#c37455"
+                    "foreground": colors.scheme.tag
                 }
             },
             {
@@ -387,7 +387,7 @@ export const getColorSet = (colors: ColorSetting): IColorSet => {
                     "source.tf entity.name"
                 ],
                 "settings": {
-                    "foreground": "#72c09f"
+                    "foreground": colors.scheme.string
                 }
             },
             {
@@ -407,7 +407,7 @@ export const getColorSet = (colors: ColorSetting): IColorSet => {
                     "text.tex markup.raw"
                 ],
                 "settings": {
-                    "foreground": "#3f8d6c"
+                    "foreground": colors.scheme.stringInterpolated
                 }
             },
             {
@@ -429,7 +429,7 @@ export const getColorSet = (colors: ColorSetting): IColorSet => {
                     "source.zig keyword.constant.default"
                 ],
                 "settings": {
-                    "foreground": "#7068b1"
+                    "foreground": colors.scheme.number
                 }
             },
             {
@@ -456,7 +456,7 @@ export const getColorSet = (colors: ColorSetting): IColorSet => {
                     "source.tf support.class"
                 ],
                 "settings": {
-                    "foreground": "#3f848d"
+                    "foreground": colors.scheme.function
                 }
             },
             {
@@ -493,7 +493,7 @@ export const getColorSet = (colors: ColorSetting): IColorSet => {
                     "entity.name.scope-resolution.function.call"
                 ],
                 "settings": {
-                    "foreground": "#72b7c0"
+                    "foreground": colors.scheme.support
                 }
             },
             {
@@ -547,7 +547,7 @@ export const getColorSet = (colors: ColorSetting): IColorSet => {
                     "markup.substitution"
                 ],
                 "settings": {
-                    "foreground": "#5998c0"
+                    "foreground": colors.scheme.misc
                 }
             },
             {
@@ -557,7 +557,7 @@ export const getColorSet = (colors: ColorSetting): IColorSet => {
                     "invalid.illegal"
                 ],
                 "settings": {
-                    "foreground": "#b16a4e"
+                    "foreground": colors.scheme.invalid
                 }
             },
             {
