@@ -1,11 +1,13 @@
 {
   "name": "orion-vscode",
+  "displayName": "Orion Theme",
+  "description": "Dark and soothing theme for VS Code",
   "author": "Piotr Zalejski",
   "version": "1.0.0",
-  "description": "",
   "license": "ISC",
   "scripts": {
-    "build": " ts-node ./scripts/generator/index.ts"
+    "build": " ts-node ./scripts/generator/index.ts",
+    "package": "vsce package"
   },
   "keywords": [],
   "engines": {
